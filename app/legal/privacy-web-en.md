@@ -23,6 +23,9 @@ Google processes this data as a service provider under the [Firebase terms](http
 - Either side can disconnect at any time: access is closed right away, and the client’s data is removed from the coach’s app.
 - Coaches: if you track clients without an account and enter their data yourself, get their consent to store it.
 
+## Bug reports
+The “Report a Bug” button sends us your text and, if you provide it, an email for a reply. If “Attach technical details” is on, the report also includes the app version, browser, screen size, language, current screen, sync status, recent page errors and your account ID. Workouts, nutrition and weight are not included. Reports are stored in the same Firebase database and are used only to fix bugs; we will delete them on request.
+
 ## Files
 - “Export All Data” creates JSON and CSV files with your data in your browser’s downloads.
 - “Send Report to Coach” and “Send Program” create files that you share yourself. From there, the service you choose handles the file under its own terms.
