@@ -27,44 +27,57 @@ footer { margin-top:24px; font-size:13px; color:var(--taupe); }
 <nav><span class="brand">K9</span><a href="privacy-uk.html">Українська</a></nav>
 <div class="card">
 <h1>K9 Privacy Policy</h1>
-<p><em>Effective October 29, 2026</em></p>
-<p>K9 is an app for training blocks, nutrition and coaching clients. It is built so that your data stays with you.</p>
+<p><em>Effective November 18, 2026</em></p>
+<p>K9 is an app for training blocks, nutrition and coaching clients. You can use it without an account — then everything stays on your iPhone. If you sign in, your data is also stored in the cloud: it opens on your other devices and for a coach you connected yourself.</p>
 <h2>In short</h2>
 <ul>
-<li>The app has no accounts, no servers of its own, no ads, no analytics and no tracking.</li>
-<li>Everything you enter is stored only on your device.</li>
-<li>Data leaves your device only when you send a file yourself or allow K9 to exchange data with Apple Health.</li>
+<li>No ads, no analytics and no tracking. We don’t sell your data or use it for advertising.</li>
+<li>Without an account, everything you enter is stored only on your device.</li>
+<li>With an account, your K9 data is also stored in Google Firebase (the database is in the European Union). Only you and the coaches you connect can see it.</li>
 </ul>
 <h2>What is stored on your device</h2>
 <ul>
 <li>Training blocks, sets, weights and notes.</li>
-<li>Your profile: sex, year of birth, height, activity level and protein and fat settings.</li>
+<li>Your profile: sex, year of birth, height, activity level, protein and fat settings and your own daily target, if you set one.</li>
 <li>Weigh-ins and your food diary.</li>
-<li>In coach mode, client data that you enter yourself or import from their reports: name, goal, notes, profile (sex, year of birth, height, activity level, protein and fat settings), workouts, body weight and nutrition.</li>
+<li>In coach mode: clients and what you enter about them or receive from them (name, goal, notes, profile, workouts, body weight and nutrition), your schedule and payment records.</li>
 </ul>
-<p>We do not receive this data: it is not sent to our servers and is not synced through iCloud. Like other apps’ data, it is included in your iPhone backup if you have backups turned on (in iCloud or on a computer).</p>
-<h2>Apple Health</h2>
-<p>If you connect Apple Health, K9 reads your body weight, steps and active energy with your permission, and writes the body weight you enter in the app. This data is used only inside the app: it is not shared with third parties and is not used for advertising. You can revoke access in iPhone Settings → Health → Data Access &amp; Devices → K9.</p>
-<h2>When data leaves your device</h2>
-<p>Only when you choose to:</p>
+<p>Like other apps’ data, it is included in your iPhone backup if you have backups turned on (in iCloud or on a computer). K9 does not sync through iCloud.</p>
+<h2>With an account</h2>
+<p>Signing in is optional. K9 offers Sign in with Apple, Google and email with a password, and uses Google Firebase services:</p>
 <ul>
-<li>&quot;Export All Data&quot; creates JSON and CSV files with your own data (blocks, profile, weigh-ins, including those read from Health, and nutrition, plus the exercise and food catalogs) and opens the share sheet.</li>
-<li>&quot;Send Report to Coach&quot; creates a file with your name, profile, training blocks, weigh-ins and nutrition for the period you choose. &quot;Send Program&quot; to a client creates a file with the block plan: exercises, schemes, planned weights and notes. You send the file yourself via AirDrop, a messenger or email.</li>
+<li><strong>Firebase Authentication</strong> stores your email (with Sign in with Apple it can be a private relay address), the name you give and your sign-in method. Your password is stored in protected form: neither we nor your coach can see it.</li>
+<li><strong>Cloud Firestore</strong> stores your K9 data: blocks, sets, notes, your profile, weigh-ins, food diary, custom exercises and foods and settings; in coach mode also clients and notes about them, the schedule, payment records and online booking settings. The database is located in the European Union (Warsaw).</li>
 </ul>
-<p>From then on, the service you choose handles the file under its own terms.</p>
-<h2>For coaches</h2>
-<p>If you manage clients in K9, get their consent to store and process their training, body weight and nutrition data.</p>
+<p>Google processes this data as a service provider under the <a href="https://firebase.google.com/support/privacy">Firebase terms</a>. Database rules restrict access: only you and the coaches you connect can see your data.</p>
+<h2>Coaches and clients</h2>
+<ul>
+<li>A coach creates an invite code, and the client enters it in K9. After that, the coach sees the client’s blocks, workouts, profile, weight and nutrition and can edit them, and sees the name the client chose for them. Sessions the coach schedules with the client appear in the client’s account. An invite code shows the coach’s name to anyone who has the code.</li>
+<li>Online booking: a coach can publish free time slots (with the coach’s name and place) for connected clients. When a client books a slot, the coach sees who booked and when.</li>
+<li>Payment records are visible only to the coach who entered them.</li>
+<li>Either side can disconnect at any time: access is closed right away, and the client’s data is removed from the coach’s app.</li>
+<li>Coaches: if you track clients without an account and enter their data yourself, get their consent to store it.</li>
+</ul>
+<h2>Apple Health</h2>
+<p>If you connect Apple Health, K9 reads your body weight, steps and active energy with your permission, and writes the body weight you enter in the app. Steps and active energy are only shown on your device and are not sent anywhere. Weigh-ins that you import from Health yourself become K9 weigh-ins: with an account they are stored in your account like your other weigh-ins, so they appear on your devices and for a coach you connected. Health data is not shared with third parties and is not used for advertising. You can revoke access in iPhone Settings → Health → Data Access &amp; Devices → K9.</p>
+<h2>Files</h2>
+<ul>
+<li>“Export All Data” creates JSON and CSV files with your own data (blocks, profile, weigh-ins, including those read from Health, and nutrition, plus the exercise and food catalogs) and opens the share sheet.</li>
+<li>“Send Report to Coach” creates a file with your name, profile, training blocks, weigh-ins and nutrition for the period you choose. “Send Program” to a client creates a file with the block plan. You send these files yourself, and from then on the service you choose handles them under its own terms.</li>
+</ul>
 <h2>Age</h2>
 <p>Calorie tracking is not intended for people under 18: if the profile shows such an age, calorie targets are hidden.</p>
 <h2>Deleting your data</h2>
 <ul>
-<li>Profile &amp; Goals → &quot;Delete All Data&quot; erases everything from the device.</li>
-<li>Deleting the app also deletes all of its data.</li>
+<li>Profile &amp; Goals → Account → “Delete Account” deletes your account and all its data in the cloud, including connections to coaches and clients and online booking. Data on this iPhone stays.</li>
+<li>“Sign Out” removes your account’s data from this iPhone; it stays in your account.</li>
+<li>“Delete All Data” erases everything from this iPhone and, if you are signed in, also from your account on all devices.</li>
+<li>Deleting the app deletes its data on this device; your account and its cloud data remain until you delete the account.</li>
 <li>Entries that K9 added to Apple Health are deleted in the Health app.</li>
 <li>Files you have already exported or sent stay wherever you saved or sent them.</li>
 </ul>
 <h2>Your rights</h2>
-<p>Only you hold your data: you can view, export or delete it in the app at any time. If you have a question about your data, contact us using the details below.</p>
+<p>You can view, export or delete your data in the app at any time. If you have a question about your data, contact us using the details below.</p>
 <h2>Changes</h2>
 <p>If this policy changes, the new version will appear in the app and on the K9 App Store page.</p>
 <h2>Contact</h2>

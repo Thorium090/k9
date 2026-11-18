@@ -1,7 +1,7 @@
 # K9 Privacy Policy (Web Version)
 _Effective November 2, 2026_
 
-K9 is an app for training blocks, nutrition and coaching clients. This policy covers the K9 web app that runs in your browser. The K9 iPhone app has its own policy: it has no accounts, and its data stays on your phone.
+K9 is an app for training blocks, nutrition and coaching clients. This policy covers the K9 web app that runs in your browser. The K9 iPhone app has its own policy — open it in the app: Profile & Goals → Privacy Policy. Your account is the same in both.
 
 ## In short
 - You can use K9 without an account — then everything stays only in this browser.
